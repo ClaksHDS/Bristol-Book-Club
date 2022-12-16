@@ -102,6 +102,7 @@ nav {
   top: 0;
   display: grid;
   place-items: center;
+  box-shadow: var(--shadow-2);
 }
 .nav-links {
   display: flex;
@@ -146,26 +147,26 @@ li {
 
 /* Club Presentation */
 
-#club_presentation {
+#club-presentation {
   margin-top: 4em;
   display: flex;
   flex-direction: column;
 }
 
-#club_presentation h3 {
+#club-presentation h3 {
   padding-left: 2em;
   line-height: 4rem;
   font-size: 40px;
   color: #f2be5c;
 }
 
-#club_presentation h4 {
+#club-presentation h4 {
   padding-left: 4em;
   color: antiquewhite;
   line-height: 2rem;
   font-size: 17px;
 }
-.club_gallery {
+.club-gallery {
   padding-top: 6em;
   display: flex;
   flex-wrap: wrap;
@@ -174,7 +175,7 @@ li {
   padding-bottom: 4em;
 }
 
-.club_gallery img {
+.club-gallery img {
   height: 350px;
   width: auto;
   padding-left: 20px;
@@ -183,7 +184,7 @@ li {
 
 /* Quote Section */
 
-#quote_section {
+#quote-section {
   height: 200px;
   width: auto;
   padding-left: 4em;
@@ -201,26 +202,26 @@ li {
   line-height: 2em;
 }
 
-.author_quote {
+.author-quote {
   font-style: italic;
 }
 
 /* Club activities*/
 
-#club_activities {
+#club-activities {
   margin-top: 4em;
   display: flex;
   flex-direction: column;
 }
 
-.activities_gallery {
+.activities-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.activities_gallery img {
+.activities-gallery img {
   height: 300px;
   width: auto;
   padding-left: 15px;
@@ -229,7 +230,7 @@ li {
 
 /* Join The Club Section */
 
-#join_us {
+#join-us {
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
@@ -239,13 +240,13 @@ li {
   flex-wrap: wrap;
 }
 
-#join_us h2 {
+#join-us h2 {
   color: #f2be5c;
   text-transform: uppercase;
   text-align: center;
 }
 
-.join_image img {
+.join-image img {
   height: 450px;
   width: auto;
   padding-top: 2em;
