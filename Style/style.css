@@ -15,7 +15,7 @@ html {
   --backgroundColor: #004643;
   --navbarBackground: #abd1c6;
   --headlineColor: #f85e00;
-  --textColor: #abd1c6;
+  --textColor: #e8e4e6;
   --navText: #1e1e1e;
   --highlightColor: #ffd279;
   /* fonts */
@@ -142,31 +142,28 @@ li {
 }
 
 .hero h1 {
-  padding: 0m 2rem;
+  padding: 0 2rem;
   text-align: center;
   letter-spacing: 0.1em;
   color: var(--highlightColor);
 }
 
 /* Club Presentation */
-
 #club-presentation {
-  margin-top: 4em;
-  display: flex;
-  flex-direction: column;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+.text-presentation h3 {
+  color: var(--headlineColor);
+  padding-bottom: 2rem;
 }
 
-#club-presentation h3 {
-  padding-left: 2em;
-  line-height: 4rem;
-  font-size: 40px;
-  color: #f2be5c;
-}
-
-#club-presentation h4 {
-  padding-left: 4em;
-  color: antiquewhite;
-  line-height: 2rem;
+#club-presentation p {
+  color: var(--textColor);
+  line-height: 2.5rem;
   font-size: 17px;
 }
 .club-gallery {
