@@ -373,15 +373,24 @@ li {
 /* Footer section */
 
 footer {
+  display: grid;
+  place-items: center;
   height: auto;
   width: 100%;
+  padding: 2rem;
   background-color: #ffdb94;
+  color: var(--backgroundColor);
 }
-
-footer li {
-  display: inline-flex;
-  justify-content: space-around;
-  padding-left: 2em;
-  padding-top: 2.5em;
-  padding-bottom: 0.8em;
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding-bottom: 1rem;
+}
+.social-links a {
+  color: var(--backgroundColor);
+  transition: var(--transition);
+}
+.social-links a:hover {
+  color: #336b69;
 }

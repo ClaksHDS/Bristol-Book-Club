@@ -23,12 +23,9 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 }
 
-const btn = document.querySelector(".join-btn");
-const prevBtn = document.querySelector(".prev-btn");
+// update the current year in the copyright footer
+const currentYear = new Date().getFullYear();
 
-const print = function (e) {
-  console.log("Hi Bob");
-};
+const updateDate = document.querySelector(".date");
 
-btn.addEventListener("click", print);
-prevBtn.addEventListener("click", print);
+updateDate.innerHTML = currentYear;
