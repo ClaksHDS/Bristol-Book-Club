@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8958caa6-f750-4e7a-81d4-8674fd0d4670/deploy-status)](https://app.netlify.com/sites/bristolbookclubproject/deploys)
+
 # Bristol-Book-Club
 
 Landing page for a fictional book club, as part of a Codecademy project.
