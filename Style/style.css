@@ -87,6 +87,11 @@ a {
   padding: 0;
 }
 
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+}
 .img {
   width: 100%;
   display: block;
@@ -176,6 +181,7 @@ li {
 }
 .club-gallery {
   margin: 0 auto;
+  width: 90vw;
   max-width: var(--maxWidth);
   display: grid;
   place-items: center;
@@ -261,6 +267,7 @@ li {
   max-width: 500px;
   object-fit: cover;
   border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-1);
 }
 
 /* Next & previous buttons */
@@ -277,7 +284,7 @@ li {
   background-color: var(--highlightColor);
   margin-top: -22px;
   padding: 4px 4px;
-  color: var(--headlineColor);
+  color: var(--backgroundColor);
   font-weight: bold;
   font-size: 32px;
   transition: var(--transition);
@@ -311,19 +318,56 @@ li {
 /* Join The Club Section */
 
 #join-us {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  display: grid;
+  place-items: center;
 }
 
-#join-us h2 {
+#join-us p {
   color: #f2be5c;
+  font-size: 22px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.newsletter-form {
+  padding: 2rem;
+  width: 90vw;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.form-input,
+.submit-btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--highlightColor);
+}
+
+.form-input {
+  border-right: none;
+  border-top-left-radius: var(--borderRadius);
+  border-bottom-left-radius: var(--borderRadius);
+}
+.submit-btn {
+  border-top-right-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
+}
+.form-input::placeholder {
+  text-transform: capitalize;
+  color: var(--backgroundColor);
+}
+
+.submit-btn {
+  background: var(--highlightColor);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--backgroundColor);
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background: #ffe4af;
 }
 
 /* Footer section */
@@ -331,7 +375,7 @@ li {
 footer {
   height: auto;
   width: 100%;
-  background-color: #f2be5c;
+  background-color: #ffdb94;
 }
 
 footer li {
