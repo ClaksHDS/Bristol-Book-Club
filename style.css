@@ -264,7 +264,7 @@ li {
 .slide img {
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 400px;
   object-fit: cover;
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-1);
@@ -280,13 +280,13 @@ li {
   width: 40px;
   border-radius: 50%;
   border: transparent;
-  text-align: center;
   background-color: var(--highlightColor);
-  margin-top: -22px;
+  margin: 0 auto;
   padding: 4px 4px;
   color: var(--backgroundColor);
+  text-align: center;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 18px;
   transition: var(--transition);
   user-select: none;
 }
