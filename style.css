@@ -219,7 +219,7 @@ li a {
 }
 
 #quote-section h2 {
-  color: #ac1e11;
+  color: var(--backgroundColor);
   font-weight: bold;
   text-align: start;
 }
