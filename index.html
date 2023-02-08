@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="homepage of a fictional book club based in Bristol, it presents the club's activities and history."
+      content="Homepage of a fictional book club based in Bristol UK, it presents the club's activities and history."
     />
     <title>The Bristol Book Club</title>
     <script
@@ -21,10 +21,11 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!--Nav Bar-->
 
-    <nav>
+    <nav role="navigation" aria-label="Primary navigation">
       <ul class="nav-links">
         <li><a href="#club-presentation">Our Club</a></li>
         <li><a href="#club-activities">Meet Up</a></li>
@@ -33,147 +34,154 @@
     </nav>
 
     <!-- Hero -->
+    <main role="main">
+      <section class="hero section-center">
+        <img
+          src="./Assets/hero-img.svg"
+          alt="Illustration of two girls talking to each other, one is sitting on a chair near a plant and the other is up."
+        />
+        <h1>The Bristol Book Club</h1>
+      </section>
 
-    <section class="hero section-center">
-      <img src="./Assets/hero-img.svg" alt="two girls talking" />
-      <h1>The Bristol Book Club</h1>
-    </section>
+      <!-- Club Presentation -->
 
-    <!-- Club Presentation -->
+      <section id="club-presentation">
+        <div class="text-presentation">
+          <h2>Pick a book. Read It. Meet up.</h2>
+          <p>
+            Come join our vibrant community of book lovers and share your
+            thoughts around a cup of coffee or a glass of wine !
+          </p>
+          <p>The Bristol Book Club is a free MeetUp group based in Bristol.</p>
+          <p>
+            Copper mug vinyl banjo microdosing unicorn freegan. Roof party tofu
+            iceland jean shorts poutine narwhal kinfolk mixtape slow-carb yes
+            plz actually. Plaid farm-to-table quinoa affogato coloring book
+            shaman, tacos hell of iPhone la croix master cleanse. Drinking
+            vinegar organic kombucha dreamcatcher unicorn glossier.
+          </p>
+        </div>
+        <div class="club-gallery">
+          <img
+            src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="A woman picking a book on a shelf with books."
+            class="img"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            alt="A woman reading a book in a room with a beautiful natural light."
+            class="img"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522008342704-6b265b543c37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="A woman reading a book in a library with a coffee."
+            class="img"
+          />
+        </div>
+      </section>
 
-    <section id="club-presentation">
-      <div class="text-presentation">
-        <h2>Pick a book. Read It. Meet up.</h2>
+      <!-- Quote section-->
+
+      <section id="quote-section">
+        <q>Reading one book is like eating one potato chip.</q>
+        <h3>Diane DUANE, <span>So You Want to Be a Wizard</span></h3>
+      </section>
+
+      <!--Club Activities-->
+
+      <section id="club-activities" class="section-center">
         <p>
-          Come join our vibrant community of book lovers and share your thoughts
-          around a cup of coffee or a glass of wine !
+          Every month, we vote to select a new place to meet up and discuss the
+          book of the month, while discovering a new place in Bristol!
+          <br />Check out some of the cool places we've been!
         </p>
-        <p>The Bristol Book Club is a free MeetUp group based in Bristol.</p>
-        <p>
-          Copper mug vinyl banjo microdosing unicorn freegan. Roof party tofu
-          iceland jean shorts poutine narwhal kinfolk mixtape slow-carb yes plz
-          actually. Plaid farm-to-table quinoa affogato coloring book shaman,
-          tacos hell of iPhone la croix master cleanse. Drinking vinegar organic
-          kombucha dreamcatcher unicorn glossier.
-        </p>
-      </div>
-      <div class="club-gallery">
-        <img
-          src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt="books picking"
-          class="img"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-          alt="reading a book"
-          class="img"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1522008342704-6b265b543c37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt="reading a book in a library with a coffee"
-          class="img"
-        />
-      </div>
-    </section>
 
-    <!-- Quote section-->
+        <div class="slideshow-container">
+          <!-- slide 1 -->
+          <div class="slide fade">
+            <img
+              src="https://images.unsplash.com/photo-1580929753530-ef52238116c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFyJTIwJUMzJUEwJTIwdmlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="A table in a wine bar with a bottle of wine and glasses."
+              class="img"
+            />
+          </div>
+          <!-- end of slide 1 -->
+          <!-- slide 2 -->
+          <div class="slide fade">
+            <img
+              src="https://images.unsplash.com/photo-1569728723358-d1a317aa7fba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="The interior of a book shop with book in display."
+              class="img"
+            />
+          </div>
+          <!-- end of slide 2 -->
+          <!-- slide 3 -->
+          <div class="slide fade">
+            <img
+              src="https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcCUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="The interior of a coffee shop with a lof of people discussing around tables."
+              class="img"
+            />
+          </div>
+          <!-- end of slide 3 -->
+          <!-- slide 4 -->
+          <div class="slide fade">
+            <img
+              src="https://images.unsplash.com/photo-1553713821-897179833050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              alt="A view of Harbourside in Bristol UK."
+              class="img"
+            />
+          </div>
+          <!-- end of slide 4 -->
+          <!-- Next & Previous Buttons -->
 
-    <section id="quote-section">
-      <h2>"Reading one book is like eating one potato chip."</h2>
-      <h3>Diane DUANE, <span>So You Want to Be a Wizard</span></h3>
-    </section>
-
-    <!--Club Activities-->
-
-    <section id="club-activities" class="section-center">
-      <p>
-        Every month, we vote to select a new place to meet up and discuss the
-        book of the month, while discovering a new place in Bristol! <br />Check
-        out some of the cool places we've been!
-      </p>
-
-      <div class="slideshow-container">
-        <!-- slide 1 -->
-        <div class="slide fade">
-          <img
-            src="https://images.unsplash.com/photo-1580929753530-ef52238116c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFyJTIwJUMzJUEwJTIwdmlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt="Wine bar"
-            class="img"
-          />
+          <button class="prev" onclick="plusSlides(-1)"><</button>
+          <button class="next" onclick="plusSlides(1)">></button>
+          <!-- end of buttons-->
         </div>
-        <!-- end of slide 1 -->
-        <!-- slide 2 -->
-        <div class="slide fade">
-          <img
-            src="https://images.unsplash.com/photo-1569728723358-d1a317aa7fba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt="Book store"
-            class="img"
-          />
-        </div>
-        <!-- end of slide 2 -->
-        <!-- slide 3 -->
-        <div class="slide fade">
-          <img
-            src="https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcCUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt="Coffee Shop interior"
-            class="img"
-          />
-        </div>
-        <!-- end of slide 3 -->
-        <!-- slide 4 -->
-        <div class="slide fade">
-          <img
-            src="https://images.unsplash.com/photo-1553713821-897179833050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-            alt="Harbourside in Bristol"
-            class="img"
-          />
-        </div>
-        <!-- end of slide 4 -->
-        <!-- Next & Previous Buttons -->
+      </section>
 
-        <button class="prev" onclick="plusSlides(-1)"><</button>
-        <button class="next" onclick="plusSlides(1)">></button>
-        <!-- end of buttons-->
-      </div>
-    </section>
+      <!--Join the Club-->
 
-    <!--Join the Club-->
-
-    <section id="join-us" class="section-center">
-      <p>Come and join our vibrant community</p>
-      <p>We meet once a month in Bristol !</p>
-      <!-- sign in form-->
-      <form class="newsletter-form" method="post">
-        <input
-          type="email"
-          name="email"
-          class="form-input"
-          placeholder="Enter your email"
-        />
-        <button type="submit" class="submit-btn">join us</button>
-      </form>
-    </section>
+      <section id="join-us" class="section-center">
+        <p>Come and join our vibrant community</p>
+        <p>We meet once a month in Bristol !</p>
+        <!-- sign in form-->
+        <form class="newsletter-form" method="post">
+          <input
+            type="email"
+            name="email"
+            class="form-input"
+            placeholder="Enter your email"
+            autocomplete="email"
+            aria-required="true"
+            aria-invalid="true"
+          />
+          <button type="submit" class="submit-btn">join us</button>
+        </form>
+      </section>
+    </main>
 
     <!-- Footer Section -->
-    <footer>
+    <footer role="contentinfo">
       <ul class="social-links">
         <li>
-          <a href="#" aria-label="facebook">
+          <a href="#" aria-label="Navigate to our Facebook account">
             <i class="fab fa-facebook" style="font-size: 24px"></i>
           </a>
         </li>
         <li>
-          <a href="#" aria-label="twitter">
+          <a href="#" aria-label="Navigate to our Twitter account">
             <i class="fab fa-twitter" style="font-size: 24px"></i>
           </a>
         </li>
         <li>
-          <a href="#" aria-label="instagram">
+          <a href="#" aria-label="Navigate to our Instagram account">
             <i class="fab fa-instagram" style="font-size: 24px"></i>
           </a>
         </li>
         <li>
-          <a href="#" aria-label="reddit">
+          <a href="#" aria-label="Navigate to the reddit channel of the club">
             <i class="fab fa-reddit" style="font-size: 24px"></i>
           </a>
         </li>

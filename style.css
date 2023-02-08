@@ -14,7 +14,7 @@ html {
   /* colors */
   --backgroundColor: #004643;
   --navbarBackground: #abd1c6;
-  --headlineColor: #f85e00;
+  --headlineColor: #f8d140;
   --textColor: #e8e4e6;
   --navText: #1e1e1e;
   --highlightColor: #ffd279;
@@ -218,8 +218,9 @@ li a {
   padding: 2rem;
 }
 
-#quote-section h2 {
+#quote-section q {
   color: var(--backgroundColor);
+  font-size: 2.441rem;
   font-weight: bold;
   text-align: start;
 }
